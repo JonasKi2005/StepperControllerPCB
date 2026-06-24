@@ -1,0 +1,27 @@
+# KiCad
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.000
+*.net
+fp-info-cache
+~*.lck
+_autosave-*
+*.kicad_prl
+
+# Gerbers / fab output (regenerate from source; optional to ignore)
+# production/
+
+# Firmware build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+.pio/          # if PlatformIO
+cmake-build-*/
+
+# macOS
+.DS_Store
