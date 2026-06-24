@@ -10,6 +10,9 @@ fp-info-cache
 _autosave-*
 *.kicad_prl
 
+.history/
+
+
 # Gerbers / fab output (regenerate from source; optional to ignore)
 # production/
 
